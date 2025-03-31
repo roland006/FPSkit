@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Playables;
@@ -17,6 +18,8 @@ public class TimelineTriggerZone : MonoBehaviour
     public TriggerType triggerType;
     public UnityEvent OnDirectorPlay;
     public UnityEvent OnDirectorFinish;
+    public Camera PlayerCamera;
+    public Camera CutsceneCamera;
 
     protected bool m_AlreadyTriggered;
 
@@ -28,10 +31,20 @@ public class TimelineTriggerZone : MonoBehaviour
         if (triggerType == TriggerType.Once && m_AlreadyTriggered)
             return;
 
+        PlayerCamera.enabled = false;
+        CutsceneCamera.enabled = true;
         OnDirectorPlay.Invoke();
         director.Play();
         m_AlreadyTriggered = true;
         Invoke("FinishInvoke", (float)director.duration);
+        director.stopped += checkFinish;
+        
+    }
+
+    void checkFinish(PlayableDirector director)
+    {
+        PlayerCamera.enabled = true;
+        CutsceneCamera.enabled = false;
     }
 
     void FinishInvoke()

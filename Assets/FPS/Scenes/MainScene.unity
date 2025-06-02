@@ -760,8 +760,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -976,8 +986,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -1408,8 +1428,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -1878,8 +1908,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -2094,8 +2134,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -2202,8 +2252,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -3475,8 +3535,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -4053,8 +4123,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -4269,8 +4349,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -6358,8 +6448,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -6790,8 +6890,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -7120,8 +7230,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -7444,8 +7564,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -7999,8 +8129,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -8107,8 +8247,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -8735,8 +8885,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -8951,8 +9111,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -9288,8 +9458,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -9582,8 +9762,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -9690,8 +9880,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -9906,8 +10106,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -10570,8 +10780,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -10684,8 +10904,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -12185,8 +12415,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -12293,8 +12533,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -12554,8 +12804,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -13494,8 +13754,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -14155,8 +14425,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -14708,8 +14988,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -15273,8 +15563,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -15597,8 +15897,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -17768,8 +18078,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -18812,8 +19132,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -19106,8 +19436,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -20073,8 +20413,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -20289,8 +20639,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -21422,8 +21782,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -22273,8 +22643,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -23152,8 +23532,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -24237,8 +24627,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -24345,8 +24745,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -25394,8 +25804,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -25533,8 +25953,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -26385,8 +26815,13 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -26455,6 +26890,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
     - target: {fileID: 9069947998728195780, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
       propertyPath: m_Name
@@ -29143,8 +29583,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -29644,8 +30094,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -30196,8 +30656,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -30412,8 +30882,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -30628,8 +31108,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -31852,8 +32342,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -32290,8 +32790,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -32398,8 +32908,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -32614,8 +33134,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -32722,8 +33252,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -33232,8 +33772,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -33340,8 +33890,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}
@@ -34631,8 +35191,18 @@ PrefabInstance:
       propertyPath: AudioSource
       value: 
       objectReference: {fileID: 2729281214152228923}
-    - target: {fileID: 945898122884879754, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
         type: 3}
+      propertyPath: uiText
+      value: 
+      objectReference: {fileID: 1920578650}
+    - target: {fileID: 5691068836003212064, guid: 1aa9ad5ad5b52e04497466a4dd2065d5,
+        type: 3}
+      propertyPath: VFX_PickupSparkles
+      value: 
+      objectReference: {fileID: 8593464584776411535, guid: c8dd0fd70c66a144fafe6aad0baf5cff,
+        type: 3}
+    - target: {fileID: 0}
       propertyPath: uiText
       value: 
       objectReference: {fileID: 1920578650}

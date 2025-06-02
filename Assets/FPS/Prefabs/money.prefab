@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 8525785268254215975}
   - component: {fileID: 4341956529691847641}
   - component: {fileID: 9058667418674730659}
-  - component: {fileID: 945898122884879754}
   - component: {fileID: 283331457659478181}
   - component: {fileID: 3377628527131103275}
   - component: {fileID: -2391336856951837666}
+  - component: {fileID: 5691068836003212064}
   m_Layer: 0
   m_Name: money
   m_TagString: Untagged
@@ -114,19 +114,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &945898122884879754
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9069947998728195780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3988cdf68baafde418b0598135157775, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uiText: {fileID: 0}
 --- !u!114 &283331457659478181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,3 +172,17 @@ MonoBehaviour:
   SoundClip: {fileID: 0}
   IsMusic: 0
   IsOnce: 0
+--- !u!114 &5691068836003212064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9069947998728195780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3f6c4d264fd5f247b739c8f7a23a39b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiText: {fileID: 0}
+  VFX_PickupSparkles: {fileID: 0}

@@ -1,5 +1,6 @@
 ﻿using Unity.FPS.Game;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace Unity.FPS.Gameplay
 {
@@ -24,16 +25,46 @@ namespace Unity.FPS.Gameplay
         PlayerCharacterController m_PlayerCharacterController;
         bool m_FireInputWasHeld;
 
+        private InputAction m_MoveAction;
+        private InputAction m_LookAction;
+        private InputAction m_JumpAction;
+        private InputAction m_FireAction;
+        private InputAction m_AimAction;
+        private InputAction m_SprintAction;
+        private InputAction m_CrouchAction;
+        private InputAction m_ReloadAction;
+        private InputAction m_NextWeaponAction;
+
         void Start()
         {
             m_PlayerCharacterController = GetComponent<PlayerCharacterController>();
             DebugUtility.HandleErrorIfNullGetComponent<PlayerCharacterController, PlayerInputHandler>(
                 m_PlayerCharacterController, this, gameObject);
-            m_GameFlowManager = FindObjectOfType<GameFlowManager>();
+            m_GameFlowManager = FindFirstObjectByType<GameFlowManager>();
             DebugUtility.HandleErrorIfNullFindObject<GameFlowManager, PlayerInputHandler>(m_GameFlowManager, this);
 
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
+
+            m_MoveAction = InputSystem.actions.FindAction("Player/Move");
+            m_LookAction = InputSystem.actions.FindAction("Player/Look");
+            m_JumpAction = InputSystem.actions.FindAction("Player/Jump");
+            m_FireAction = InputSystem.actions.FindAction("Player/Fire");
+            m_AimAction = InputSystem.actions.FindAction("Player/Aim");
+            m_SprintAction = InputSystem.actions.FindAction("Player/Sprint");
+            m_CrouchAction = InputSystem.actions.FindAction("Player/Crouch");
+            m_ReloadAction = InputSystem.actions.FindAction("Player/Reload");
+            m_NextWeaponAction = InputSystem.actions.FindAction("Player/NextWeapon");
+            
+            m_MoveAction.Enable();
+            m_LookAction.Enable();
+            m_JumpAction.Enable();
+            m_FireAction.Enable();
+            m_AimAction.Enable();
+            m_SprintAction.Enable();
+            m_CrouchAction.Enable();
+            m_ReloadAction.Enable();
+            m_NextWeaponAction.Enable();
         }
 
         void LateUpdate()
@@ -50,8 +81,8 @@ namespace Unity.FPS.Gameplay
         {
             if (CanProcessInput())
             {
-                Vector3 move = new Vector3(Input.GetAxisRaw(GameConstants.k_AxisNameHorizontal), 0f,
-                    Input.GetAxisRaw(GameConstants.k_AxisNameVertical));
+                var input = m_MoveAction.ReadValue<Vector2>();
+                Vector3 move = new Vector3(input.x, 0f, input.y);
 
                 // constrain move input to a maximum magnitude of 1, otherwise diagonal movement might exceed the max move speed defined
                 move = Vector3.ClampMagnitude(move, 1);
@@ -64,21 +95,49 @@ namespace Unity.FPS.Gameplay
 
         public float GetLookInputsHorizontal()
         {
-            return GetMouseOrStickLookAxis(GameConstants.k_MouseAxisNameHorizontal,
-                GameConstants.k_AxisNameJoystickLookHorizontal);
+            if (!CanProcessInput())
+                return 0.0f;
+            
+            float input = m_LookAction.ReadValue<Vector2>().x;
+
+            if (InvertXAxis)
+                input *= -1;
+
+            input *= LookSensitivity;
+            
+#if UNITY_WEBGL
+            // Mouse tends to be even more sensitive in WebGL due to mouse acceleration, so reduce it even more
+            input *= WebglLookSensitivityMultiplier;
+#endif
+
+            return input;
         }
 
         public float GetLookInputsVertical()
         {
-            return GetMouseOrStickLookAxis(GameConstants.k_MouseAxisNameVertical,
-                GameConstants.k_AxisNameJoystickLookVertical);
+            if (!CanProcessInput())
+                return 0.0f;
+            
+            float input = m_LookAction.ReadValue<Vector2>().y;
+
+            if (InvertYAxis)
+                input *= -1;
+
+            input *= LookSensitivity;
+            
+#if UNITY_WEBGL
+            // Mouse tends to be even more sensitive in WebGL due to mouse acceleration, so reduce it even more
+            input *= WebglLookSensitivityMultiplier;
+#endif
+
+            return input;
         }
 
         public bool GetJumpInputDown()
         {
             if (CanProcessInput())
             {
-                return Input.GetButtonDown(GameConstants.k_ButtonNameJump);
+                return m_JumpAction.WasPressedThisFrame();
             }
 
             return false;
@@ -88,7 +147,7 @@ namespace Unity.FPS.Gameplay
         {
             if (CanProcessInput())
             {
-                return Input.GetButton(GameConstants.k_ButtonNameJump);
+                return m_JumpAction.IsPressed();
             }
 
             return false;
@@ -108,15 +167,7 @@ namespace Unity.FPS.Gameplay
         {
             if (CanProcessInput())
             {
-                bool isGamepad = Input.GetAxis(GameConstants.k_ButtonNameGamepadFire) != 0f;
-                if (isGamepad)
-                {
-                    return Input.GetAxis(GameConstants.k_ButtonNameGamepadFire) >= TriggerAxisThreshold;
-                }
-                else
-                {
-                    return Input.GetButton(GameConstants.k_ButtonNameFire);
-                }
+                return m_FireAction.IsPressed();
             }
 
             return false;
@@ -126,11 +177,7 @@ namespace Unity.FPS.Gameplay
         {
             if (CanProcessInput())
             {
-                bool isGamepad = Input.GetAxis(GameConstants.k_ButtonNameGamepadAim) != 0f;
-                bool i = isGamepad
-                    ? (Input.GetAxis(GameConstants.k_ButtonNameGamepadAim) > 0f)
-                    : Input.GetButton(GameConstants.k_ButtonNameAim);
-                return i;
+                return m_AimAction.IsPressed();
             }
 
             return false;
@@ -140,7 +187,7 @@ namespace Unity.FPS.Gameplay
         {
             if (CanProcessInput())
             {
-                return Input.GetButton(GameConstants.k_ButtonNameSprint);
+                return m_SprintAction.IsPressed();
             }
 
             return false;
@@ -150,7 +197,7 @@ namespace Unity.FPS.Gameplay
         {
             if (CanProcessInput())
             {
-                return Input.GetButtonDown(GameConstants.k_ButtonNameCrouch);
+                return m_CrouchAction.WasPressedThisFrame();
             }
 
             return false;
@@ -160,7 +207,7 @@ namespace Unity.FPS.Gameplay
         {
             if (CanProcessInput())
             {
-                return Input.GetButtonUp(GameConstants.k_ButtonNameCrouch);
+                return m_CrouchAction.WasReleasedThisFrame();
             }
 
             return false;
@@ -170,7 +217,7 @@ namespace Unity.FPS.Gameplay
         {
             if (CanProcessInput())
             {
-                return Input.GetButtonDown(GameConstants.k_ButtonReload);
+                return m_ReloadAction.WasPressedThisFrame();
             }
 
             return false;
@@ -180,19 +227,12 @@ namespace Unity.FPS.Gameplay
         {
             if (CanProcessInput())
             {
+                var input = m_NextWeaponAction.ReadValue<float>();
 
-                bool isGamepad = Input.GetAxis(GameConstants.k_ButtonNameGamepadSwitchWeapon) != 0f;
-                string axisName = isGamepad
-                    ? GameConstants.k_ButtonNameGamepadSwitchWeapon
-                    : GameConstants.k_ButtonNameSwitchWeapon;
-
-                if (Input.GetAxis(axisName) > 0f)
+                if (input > 0f)
                     return -1;
-                else if (Input.GetAxis(axisName) < 0f)
-                    return 1;
-                else if (Input.GetAxis(GameConstants.k_ButtonNameNextWeapon) > 0f)
-                    return -1;
-                else if (Input.GetAxis(GameConstants.k_ButtonNameNextWeapon) < 0f)
+                
+                if (input < 0f)
                     return 1;
             }
 
@@ -203,65 +243,27 @@ namespace Unity.FPS.Gameplay
         {
             if (CanProcessInput())
             {
-                if (Input.GetKeyDown(KeyCode.Alpha1))
+                if (Keyboard.current.digit1Key.wasPressedThisFrame)
                     return 1;
-                else if (Input.GetKeyDown(KeyCode.Alpha2))
+                if (Keyboard.current.digit2Key.wasPressedThisFrame)
                     return 2;
-                else if (Input.GetKeyDown(KeyCode.Alpha3))
+                if (Keyboard.current.digit3Key.wasPressedThisFrame)
                     return 3;
-                else if (Input.GetKeyDown(KeyCode.Alpha4))
+                if (Keyboard.current.digit4Key.wasPressedThisFrame)
                     return 4;
-                else if (Input.GetKeyDown(KeyCode.Alpha5))
+                if (Keyboard.current.digit5Key.wasPressedThisFrame)
                     return 5;
-                else if (Input.GetKeyDown(KeyCode.Alpha6))
+                if (Keyboard.current.digit6Key.wasPressedThisFrame)
                     return 6;
-                else if (Input.GetKeyDown(KeyCode.Alpha7))
+                if (Keyboard.current.digit7Key.wasPressedThisFrame)
                     return 7;
-                else if (Input.GetKeyDown(KeyCode.Alpha8))
+                if (Keyboard.current.digit8Key.wasPressedThisFrame)
                     return 8;
-                else if (Input.GetKeyDown(KeyCode.Alpha9))
+                if (Keyboard.current.digit9Key.wasPressedThisFrame)
                     return 9;
-                else
-                    return 0;
             }
 
             return 0;
-        }
-
-        float GetMouseOrStickLookAxis(string mouseInputName, string stickInputName)
-        {
-            if (CanProcessInput())
-            {
-                // Check if this look input is coming from the mouse
-                bool isGamepad = Input.GetAxis(stickInputName) != 0f;
-                float i = isGamepad ? Input.GetAxis(stickInputName) : Input.GetAxisRaw(mouseInputName);
-
-                // handle inverting vertical input
-                if (InvertYAxis)
-                    i *= -1f;
-
-                // apply sensitivity multiplier
-                i *= LookSensitivity;
-
-                if (isGamepad)
-                {
-                    // since mouse input is already deltaTime-dependant, only scale input with frame time if it's coming from sticks
-                    i *= Time.deltaTime;
-                }
-                else
-                {
-                    // reduce mouse input amount to be equivalent to stick movement
-                    i *= 0.01f;
-#if UNITY_WEBGL
-                    // Mouse tends to be even more sensitive in WebGL due to mouse acceleration, so reduce it even more
-                    i *= WebglLookSensitivityMultiplier;
-#endif
-                }
-
-                return i;
-            }
-
-            return 0f;
         }
     }
 }

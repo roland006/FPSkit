@@ -2,6 +2,7 @@
 using Unity.FPS.Gameplay;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 namespace Unity.FPS.UI
@@ -32,17 +33,22 @@ namespace Unity.FPS.UI
         PlayerInputHandler m_PlayerInputsHandler;
         Health m_PlayerHealth;
         FramerateCounter m_FramerateCounter;
+        
+        private InputAction m_SubmitAction;
+        private InputAction m_CancelAction;
+        private InputAction m_NavigateAction;
+        private InputAction m_MenuAction;
 
         void Start()
         {
-            m_PlayerInputsHandler = FindObjectOfType<PlayerInputHandler>();
+            m_PlayerInputsHandler = FindFirstObjectByType<PlayerInputHandler>();
             DebugUtility.HandleErrorIfNullFindObject<PlayerInputHandler, InGameMenuManager>(m_PlayerInputsHandler,
                 this);
 
             m_PlayerHealth = m_PlayerInputsHandler.GetComponent<Health>();
             DebugUtility.HandleErrorIfNullGetComponent<Health, InGameMenuManager>(m_PlayerHealth, this, gameObject);
 
-            m_FramerateCounter = FindObjectOfType<FramerateCounter>();
+            m_FramerateCounter = FindFirstObjectByType<FramerateCounter>();
             DebugUtility.HandleErrorIfNullFindObject<FramerateCounter, InGameMenuManager>(m_FramerateCounter, this);
 
             MenuRoot.SetActive(false);
@@ -58,25 +64,35 @@ namespace Unity.FPS.UI
 
             FramerateToggle.isOn = m_FramerateCounter.UIText.gameObject.activeSelf;
             FramerateToggle.onValueChanged.AddListener(OnFramerateCounterChanged);
+
+            m_SubmitAction = InputSystem.actions.FindAction("UI/Submit");
+            m_CancelAction = InputSystem.actions.FindAction("UI/Cancel");
+            m_NavigateAction = InputSystem.actions.FindAction("UI/Navigate");
+            m_MenuAction = InputSystem.actions.FindAction("UI/Menu");
+            
+            m_SubmitAction.Enable();
+            m_CancelAction.Enable();
+            m_NavigateAction.Enable();
+            m_MenuAction.Enable();
         }
 
         void Update()
         {
             // Lock cursor when clicking outside of menu
-            if (!MenuRoot.activeSelf && Input.GetMouseButtonDown(0))
+            if (!MenuRoot.activeSelf && Mouse.current.leftButton.wasPressedThisFrame)
             {
                 Cursor.lockState = CursorLockMode.Locked;
                 Cursor.visible = false;
             }
 
-            if (Input.GetKeyDown(KeyCode.Escape))
+            if (Keyboard.current.escapeKey.wasPressedThisFrame)
             {
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
             }
 
-            if (Input.GetButtonDown(GameConstants.k_ButtonNamePauseMenu)
-                || (MenuRoot.activeSelf && Input.GetButtonDown(GameConstants.k_ButtonNameCancel)))
+            if (m_MenuAction.WasPressedThisFrame()
+                || (MenuRoot.activeSelf && m_CancelAction.WasPressedThisFrame()))
             {
                 if (ControlImage.activeSelf)
                 {
@@ -88,7 +104,7 @@ namespace Unity.FPS.UI
 
             }
 
-            if (Input.GetAxisRaw(GameConstants.k_AxisNameVertical) != 0)
+            if (m_NavigateAction.ReadValue<Vector2>().y != 0)
             {
                 if (EventSystem.current.currentSelectedGameObject == null)
                 {

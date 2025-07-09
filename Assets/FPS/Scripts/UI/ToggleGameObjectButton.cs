@@ -1,6 +1,7 @@
 ﻿using Unity.FPS.Game;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 
 namespace Unity.FPS.UI
 {
@@ -8,10 +9,18 @@ namespace Unity.FPS.UI
     {
         public GameObject ObjectToToggle;
         public bool ResetSelectionAfterClick;
+        
+        private InputAction m_CancelAction;
+
+        void Start()
+        {
+            m_CancelAction = InputSystem.actions.FindAction("UI/Cancel");
+            m_CancelAction.Enable();
+        }
 
         void Update()
         {
-            if (ObjectToToggle.activeSelf && Input.GetButtonDown(GameConstants.k_ButtonNameCancel))
+            if (ObjectToToggle.activeSelf && m_CancelAction.WasPressedThisFrame())
             {
                 SetGameObjectActive(false);
             }
